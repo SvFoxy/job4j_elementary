@@ -24,6 +24,5 @@ public class Converter {
         float out2 = Converter.rubleToDollar(in2);
         boolean passed2 = expected2 == out2;
         System.out.println("180 rubles are 3. Test result : " + passed2);
-
     }
 }
