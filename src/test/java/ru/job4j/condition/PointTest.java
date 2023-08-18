@@ -16,7 +16,7 @@ public class PointTest {
     }
 
     @Test
-    public void when01to20then10() {
+    public void when040to250then1019() {
         double expected = 10.19;
         int x1 = 0;
         int y1 = 40;
@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to21then28() {
+    public void when300to21then2801() {
         double expected = 28.01;
         int x1 = 30;
         int y1 = 0;
@@ -38,7 +38,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to22then20() {
+    public void when00to220then2009() {
         double expected = 20.09;
         int x1 = 0;
         int y1 = 0;
