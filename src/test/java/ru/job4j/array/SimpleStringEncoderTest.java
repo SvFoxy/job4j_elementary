@@ -13,7 +13,7 @@ class SimpleStringEncoderTest {
         assertThat(result).isEqualTo(expected);
     }
 
-    @Test
+    @Test 
     void whenStringabbcccThenResulta2b3c() {
         String input = "abbccc";
         String expected = "ab2c3";
