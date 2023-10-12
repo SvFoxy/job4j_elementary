@@ -39,4 +39,25 @@ class MaxTest {
         int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenMax3To2To4Then4() {
+        int a = 3;
+        int b = 2;
+        int c = 4;
+        int result = Max.max(a, b, c);
+        int expected = 4;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenMax33To20To4To5Then33() {
+        int a = 33;
+        int b = 22;
+        int c = 4;
+        int d = 5;
+        int result = Max.max(a, b, c, d);
+        int expected = 33;
+        assertThat(result).isEqualTo(expected);
+    }
 }
